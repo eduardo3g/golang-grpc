@@ -1,6 +1,10 @@
 package services
 
-import "github.com/codeedu/fc2-grpc/pb"
+import (
+	"context"
+	"fmt"
+	"github.com/codeedu/fc2-grpc/pb"
+)
 
 type UserService struct {
 	pb.UnimplementedUserServiceServer
