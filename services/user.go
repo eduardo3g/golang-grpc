@@ -2,11 +2,6 @@ package services
 
 import "github.com/codeedu/fc2-grpc/pb"
 
-// type UserServiceServer interface {
-// 	AddUser(context.Context, *User) (*User, error)
-// 	mustEmbedUnimplementedUserServiceServer()
-// }
-
 type UserService struct {
 	pb.UnimplementedUserServiceServer
 }
